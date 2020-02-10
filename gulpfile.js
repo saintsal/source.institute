@@ -7,6 +7,7 @@ const clean = require('gulp-clean');
 const useref = require('gulp-useref')
 const browserSync = require('browser-sync').create()
 const concat = require('gulp-concat')
+const purgecss = require('gulp-purgecss')
 
 const f = {
     src: "src",
@@ -29,9 +30,12 @@ function css() {
         .pipe(concat('main.css'))
         .pipe(postcss([
             require('tailwindcss'),
-            require('autoprefixer')
-            // require('@fullhuman/postcss-purgecss'),
+            require('autoprefixer'),
         ]))
+        .pipe(purgecss({
+            content: [`${f.src}/**/*.html`],
+            defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+        }))
         .pipe(gulpIf('*.css', cssnano()))
         .pipe(dest(`${f.dest}/css/`))
         .pipe(browserSync.stream())
