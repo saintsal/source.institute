@@ -19,7 +19,7 @@ p {
 }
 
 a {
-    @apply underline
+    @apply no-underline border-b border-dotted border-gray-300
 }
 
 em {
@@ -31,12 +31,12 @@ em {
 }
 
 .projects>a {
-    @apply w-full block no-underline
+    @apply w-full block no-underline border-none
 }
 
 @screen sm {
     .projects>a {
-        @apply w-1/3 
+        @apply w-1/3
     }
 }
 
