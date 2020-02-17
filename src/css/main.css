@@ -18,6 +18,18 @@ p {
     @apply mt-3
 }
 
+svg {
+    max-width: 2rem;
+}
+
+p svg {
+    @apply text-gray-400 inline fill-current
+}
+
+.bio a {
+    @apply no-underline border-none
+}
+
 a {
     @apply no-underline border-b border-dotted border-gray-300
 }
@@ -66,9 +78,13 @@ article .status {
 
 article .notes,
 .bio {
-    @apply text-gray-500 text-sm mt-3;
+    @apply text-gray-400 text-sm mt-3;
 }
 
 .footer {
-    @apply flex flex-no-wrap text-sm text-gray-300 mt-12 mb-8 justify-center
+    @apply text-sm text-gray-300 mt-12 mb-8 
+}
+
+.footer a {
+    @apply border-none
 }

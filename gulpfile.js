@@ -49,7 +49,7 @@ function serve() {
         }
     })
 
-    watch([`${f.src}/*.html`]).on('change', html)
+    watch([`${f.src}/*.html`]).on('change', series(html,css))
     watch([`${f.src}/css/*`]).on('change', css)
 
 }
