@@ -1,0 +1,26 @@
+site_name: Source Institute
+site_url: https://source.institute
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+theme:
+  name: material
+  font: false
+  logo: /assets/source_logo.png
+  favicon: /assets/source_logo.png
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+  plugins:
+    - search
+    - social:
+      cards_font: Oxygen
+extra_css:
+  - css/source.css
