@@ -1,5 +1,5 @@
 site_name: Source Institute
-site_url: https://source.institute
+site_url: https://source.institute/
 markdown_extensions:
   - md_in_html
   - attr_list
