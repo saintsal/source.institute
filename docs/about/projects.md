@@ -1,9 +1,4 @@
----
-hide:
-  - navigation
----
-
-# Projects
+# Our Projects
 
 We've used peer learning to help world-leading organisations, and entrepreneurs in some of the world's fastest-changing environments. Here are some selected projects to give you and idea of what we do.
 

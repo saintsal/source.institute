@@ -15,7 +15,7 @@ hide:
 
 <p><a href="/start" title="" class="md-button md-button--primary"> Get started </a> 
 
-<a href="/projects" title="" class="md-button"> See Our Work</a> 
+<a href="/about/projects" title="" class="md-button"> See Our Work</a> 
 
 </div>
 </div>
