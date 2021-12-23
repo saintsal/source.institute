@@ -31,7 +31,7 @@ Favour asynchronous communication (like the forum) over synchronous (chat and vo
 Thoughts on big decisions, teammate updates, etc. - that stuff goes in writing because:
 
 - it's inclusive - everyone is in the loop
-- it's respectful - we can read and respond on own own schedule
+- it's respectful - we can read and respond on own schedule
 - it promotes thoughtfulness - writing helps us articulate our thinking more clearly from the start
 
 ## Squads instead of managers
