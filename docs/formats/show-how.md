@@ -1,7 +1,7 @@
 # Show-How 
 
 !!! note 
-    We used to call this format "Show & Tell" but changed it to "Show How" to make the goal clearer. 
+    We used to call this format "Show & Tell" but changed it to "Show How" to make the goal clearer. (Especially in different cultures where "Show & Tell" can have very different connotations.)
 
 ## Purpose
 To allow others to learn from someone’s practical experience.
