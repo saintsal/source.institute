@@ -1,4 +1,4 @@
-# Choosing the right format
+# Peer Learning Formats
 
 !!! info 
     Over a decade, Source has developed several dozen tried-and-test formats.  We've only published a few here, but we're happy to share more if you can't find your use case here.

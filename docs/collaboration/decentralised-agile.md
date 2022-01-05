@@ -1,6 +1,6 @@
 # Decentralised Agile
 
-Source Institute collaborations usually run using a form of [Agile](https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques) and Lean methodologies, and a calm, [async-first communication culture](../squad) similar to [Basecamp's](https://basecamp.com/guides/how-we-communicate). 
+Source Institute collaborations usually run using a form of [Agile](https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques) and Lean methodologies, and a calm, [async-first communication culture](../remote/).
 
 There are significant differences though:
 
@@ -246,10 +246,12 @@ Ideally, we develop both in parallel as both together will drive Source towards 
 Our goal here is to drive more rounded and meaningful research and development by placing Source in [Pasteur's Quadrant](https://en.wikipedia.org/wiki/Pasteur%27s_quadrant) - where both basic and applied research in peer learning are relevant.
 
 ## Communication
-
 Protecting our way of working, and respecting each others' time both come down to the every day choices we make about communication channels.
 
+
 In a nutshell, Source uses asynchronous communication for group discussions, voice chat for 1:1 conversations (only when needed) and text chat is optional and for random/social stuff only.
+
+Our communication culture is similar to Basecamp, and [communication guide](https://basecamp.com/guides/how-we-communicate) is worth a read to understand the ethos.  But let's get practical here.
 
 The forum is for *all* discussions :
 
