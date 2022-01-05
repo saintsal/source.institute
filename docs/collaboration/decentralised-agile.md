@@ -74,17 +74,56 @@ One of the big ideas with this shift is to create an incentive for everyone to t
 
 With the Speedboat Armada Model, we create space to see more leadership emerge within Source without bumping into existing initiatives.  If you see a way to enable peer learning at Source or with Source's help, go for it.  You'll gain our support, and will even probably attract a small squad around you.  You just need to agree on OKRs with the other squad captains and the admiral and you're all set.  
 
-### Roles
+#### Products, not projects
 
-![armada roles](armada-roles-communication.png)
+Speedboats deliver user-focused products.  They are not defined by general work (projects) but outputs that deliver specific value to specific groups of people (products).  Speedboats are agile Squads, multi-disciplinary teams that deliver value to the user at the end of every one or two-week sprint.
+
+Projects have goals that serve the host organisation.  Products have goals that serve the user.  When you organise into product teams, you break work down, not by function, but by value to the end-user.  
+
+
+#### User Stories, not tasks
+
+A specific Agile technique called User Stories is the unit of progress.  Shipping something that achieves the user stories allows the squad to self-organise and do what needs doing to deliver value, rather than require a manager to chase tasks.
+
+https://www.youtube.com/watch?v=LGeDZmrWwsw
+
+
+#### Internally functional
+
+Speedboats have every function they need on their squad.
+When you break up your teams by function, then you create interdependency.  This slows us down because each squad is going to end up waiting on others. This leads to more need for planning and management overhead, and less time for doing.  It also leads to feeling like you *shouldn't do what makes sense for you* because it might mess with another project.  
+
+Product teams have everyone they need in the squad and can act.  The squad doesn't need to check in with anyone but themselves for operational issues.  (Only the Captain needs to update OKRs every 2 months and confidence levels every month.).  There's less time needed for meetings and talking, and more of a culture of "let's just try this and let the results speak for themselves."
+
+#### Results-oriented
+
+Speedboats hold themselves accountable to results.
+
+The Product Owner sets success metrics and the team then implements a way to track them.  Each sprint, the team reviews their work against performance, and learns and adapts accordingly.  As a self-directing team, the squad members don't wait for management to check the metrics and suggest course-corrections, but check the metrics, make suggestions and act on them themselves.
+
+#### Self-directing
+
+Speedboats set and communicate their objectives.
+
+To be a Source Institute captain, you must have contributed to a Source community project already.  The Source Institute captains set OKRs which are agreed by the admiral and fellow captains.
+
+
+## Roles
+
+![armada roles](./armada-roles.png)
 Source basically revolves around speedboat "Crews" that work as small self-directed teams.  Crews have a Captain and a First Mate.  Crews are supported by Waterskiiers who follow along and help when pulled in.
 
 Outside of Crews, Admirals work to help Captains coordinate within the armada.
 
-### Strategic Coordination
+### Coordination
+
 **Admirals** coordinate the speedboats at a high level. They have influence over the speedboats objectives, but not their operations. They mainly act as information providers to help the Captains decide on objectives.  They understand the goals and direction of the speedboats, help them avoid overlapping (on goals) and colliding (competing for resources) by bridging communications between Captains where needed.  They also look ahead to where these groups of boats are heading in the medium and long-term, doing recon, research, making useful connections, and generally making sure the coast is clear.
 
-### Self-directed teams
+!!! note 
+     In the long run, we expect Admirals to be replaced by fully advisory roles, effectively waterskiiers responsible to Captains.
+
+### Boats
+
 **Captain** - Each speaedboat is lead by a captain which is responsible for setting and achieving the squad's results. Captains are self-appointed on squads they create.   They are responsible for the opportunity, results, design and delivery. *In Agile, the Product Owner.*
 
 
@@ -110,33 +149,9 @@ In Agile terms, Crew is a synonym for squad.  They are the core 2-4 people deliv
 
     For more information on this, see the [GDS guide to Agile](https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques).
 
-
-#### Products, not projects
-
-Speedboats deliver user-focused products.  They are not defined by general work (projects) but outputs that deliver specific value to specific groups of people (products).  Speedboats are agile Squads, multi-disciplinary teams that deliver value to the user at the end of every one or two-week sprint.
-
-Projects have goals that serve the host organisation.  Products have goals that serve the user.  When you organise into product teams, you break work down, not by function, but by value to the end-user.  
-
-
-#### User Stories, not tasks
-
-A specific Agile technique called User Stories is the unit of progress.  Shipping something that achieves the user stories allows the squad to self-organise and do what needs doing to deliver value, rather than require a manager to chase tasks.
-
-https://www.youtube.com/watch?v=LGeDZmrWwsw
-
-
-#### Speedboats have every function they need on their squad
-When you break up your teams by function, then you create interdependency.  This slows us down because each squad is going to end up waiting on others. This leads to more need for planning and management overhead, and less time for doing.  It also leads to feeling like you *shouldn't do what makes sense for you* because it might mess with another project.  
-
-Product teams have everyone they need in the squad and can act.  The squad doesn't need to check in with anyone but themselves for operational issues.  (Only the Captain needs to update OKRs every 2 months and confidence levels every month.).  There's less time needed for meetings and talking, and more of a culture of "let's just try this and let the results speak for themselves."
-
-#### Speedboats hold themselves accountable to results
-The Product Owner sets success metrics and the team then implements a way to track them.  Each sprint, the team reviews their work against performance, and learns and adapts accordingly.  As a self-directing team, the squad members don't wait for management to check the metrics and suggest course-corrections, but check the metrics, make suggestions and act on them themselves.
-
-#### Speedboats set and communicate their objectives
-To be a Source Institute captain, you must have contributed to a Source community project already.  The Source Institute captains set OKRs which are agreed by the admiral and fellow captains.
-
 ## Self-coordination Mechanisms
+
+![check-ins](check-ins.png)
 
 ### Personal check-ins (Everyone)
 
@@ -179,6 +194,8 @@ If you're on a squad or on a short rope, then you need to be on the Standup for 
     If you want to dig into this a bit more, check out the [GDS intro to Agile](https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques).	
 
 ### Strategic Coordination (Captains and Admirals)
+
+![radar readout](slow-feed.png)
 
 #### Squad setup
 
@@ -246,20 +263,20 @@ Ideally, we develop both in parallel as both together will drive Source towards 
 Our goal here is to drive more rounded and meaningful research and development by placing Source in [Pasteur's Quadrant](https://en.wikipedia.org/wiki/Pasteur%27s_quadrant) - where both basic and applied research in peer learning are relevant.
 
 ## Communication
+![armada roles](armada-communication.png)
 Protecting our way of working, and respecting each others' time both come down to the every day choices we make about communication channels.
 
 
 In a nutshell, Source uses asynchronous communication for group discussions, voice chat for 1:1 conversations (only when needed) and text chat is optional and for random/social stuff only.
 
-Our communication culture is similar to Basecamp, and [communication guide](https://basecamp.com/guides/how-we-communicate) is worth a read to understand the ethos.  But let's get practical here.
+Our communication culture is similar to Basecamp, and [their communication guide](https://basecamp.com/guides/how-we-communicate) is worth a read to understand the ethos.  But let's get practical for now.
 
-The forum is for *all* discussions :
+The forum is for *all* discussions that:
 
-* that require more than 30 seconds to respond
-* that are important enough to need to be referred to in the future
-* where responses are important
+* are important enough to need to be referred to after tomorrow
+* require more than 30 seconds to respond
 
-The community is divided into different categories so you can follow along or ignore and catch up later:
+The forum is divided into different categories so you can follow along or ignore and catch up later:
 
 - The Check-In category is for high-level updates
 - Each speedboat team has it's own category for their own discussions
@@ -267,8 +284,8 @@ The community is divided into different categories so you can follow along or ig
 
 Chat on Telegram is for:
 
-- mainly random, social stuff
-- quick answers that don't require time to respond
+- random, social stuff
+- quick answers that don't require time to respond and where you care more about a fast answer than a thoughtful one
 
 (Nobody is required to be on chat, only on the forum.)
 
@@ -287,6 +304,8 @@ The idea with a discussion forum is that we start to think through and clarify o
 Another big benefit to async-first is that the important group decisions happen faster.  It seems counter-intuitive at first but consider this:  We're prone to delaying conversations until we're together or on the phone, which slows us down. Since forums are asynchronous, there's no need to wait. Just post. Given we all have different schedules, this is faster than waiting for a scheduled call.  Everyone can respond and move things forward without the waiting.
 
 ### Learning from each other at Source Camps
+![unconference illustration](unconference.png)
+
 Source Camp is a private unconference that runs every 2-3 months.  This is your chance to learn whatever needs to be learned to advance yourself along the belt system.  Each Source Camp will be focused on a specific track.
 
 Everyone who's made a significant personal contribution to any Source project is welcome to the **Community** track Source Camp. This includes Leancamp, Immersion, etc.
