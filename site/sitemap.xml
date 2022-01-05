@@ -21,32 +21,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://source.institute/collaboration/decentralised-agile/</loc>
+         <lastmod>2022-01-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://source.institute/collaboration/remote/</loc>
          <lastmod>2022-01-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://source.institute/collaboration/source-os/</loc>
+         <loc>https://source.institute/formats/</loc>
          <lastmod>2022-01-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://source.institute/peer-learning-formats/</loc>
+         <loc>https://source.institute/formats/clinic/</loc>
          <lastmod>2022-01-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://source.institute/peer-learning-formats/clinic/</loc>
+         <loc>https://source.institute/formats/flocks/</loc>
          <lastmod>2022-01-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://source.institute/peer-learning-formats/flocks/</loc>
-         <lastmod>2022-01-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://source.institute/peer-learning-formats/show-how/</loc>
+         <loc>https://source.institute/formats/show-how/</loc>
          <lastmod>2022-01-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
