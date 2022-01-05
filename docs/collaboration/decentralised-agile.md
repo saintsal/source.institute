@@ -27,6 +27,13 @@ The priority is to achieve connection and growth with our communities through th
 
         So basically, we're aiming for more, smaller, self-directed teams that align themselves quarterly.
 
+    === "Permeability"
+        We've learned a lot from a the Lean and Agile community, but a key difference we found was that Source is very permeable and work with us is far more ephemeral and temporary.
+
+        We work with such a large variety of clients, cultures and very often with one-time volunteers.  This means the learning curve of Agile is just too much. 
+
+        So over time, Source OS has adapted to become lighter and easier for new people to get involved and hit the ground running.
+
     === "Wayfinding"
         The intention here is to step away from the problems caused by the lack of structure we've had previously, where we would wait for an initiative to get started by someone else, and then everyone would jump on it at once.  This created a lot of needless complication, confusion and extra work for the initiators, and overloaded projects too early, just as they were getting momentum.  Ultimately, creating organisational weakness at sales, communication and in delivering projects.
 
