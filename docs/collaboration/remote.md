@@ -1,4 +1,4 @@
-# Working in Remote Squads
+# Remote Squads
 This is a quick intro to how I work with new collaborators at Source, so we can hit the ground running with best practices.  
 
 The Source Way built up practices to make it easer for new people to start, and easier for larger groups to keep up with a bunch of parallel projects.

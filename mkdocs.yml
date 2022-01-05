@@ -6,6 +6,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+        alternate_style: true
   - tables
 theme:
   name: material
@@ -17,7 +19,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.top
   plugins:
     - search
     - social:

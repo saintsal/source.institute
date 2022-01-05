@@ -1,0 +1,1275 @@
+<!--
+  Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://source.institute/collaboration/source-os/">
+      
+      <link rel="icon" href="/assets/source_logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.4">
+    
+    
+      
+        <title>Decentralised Agile - Source Institute</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bb3983ee.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../css/source.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#decentralised-agile" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Source Institute" class="md-header__button md-logo" aria-label="Source Institute" data-md-component="logo">
+      
+  <img src="/assets/source_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Source Institute
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Decentralised Agile
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../start/" class="md-tabs__link">
+      Getting started
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../remote/" class="md-tabs__link md-tabs__link--active">
+        Collaboration
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../peer-learning-formats/" class="md-tabs__link">
+        Peer learning formats
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Source Institute" class="md-nav__button md-logo" aria-label="Source Institute" data-md-component="logo">
+      
+  <img src="/assets/source_logo.png" alt="logo">
+
+    </a>
+    Source Institute
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        What is Source Institute?
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/projects/" class="md-nav__link">
+        Our Projects
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Collaboration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Collaboration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Collaboration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remote/" class="md-nav__link">
+        Remote Squads
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Decentralised Agile
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Decentralised Agile
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#source-os" class="md-nav__link">
+    Source OS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-speedboat-armada-model" class="md-nav__link">
+    The Speedboat Armada Model
+  </a>
+  
+    <nav class="md-nav" aria-label="The Speedboat Armada Model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roles" class="md-nav__link">
+    Roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategic-coordination" class="md-nav__link">
+    Strategic Coordination
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-directed-teams" class="md-nav__link">
+    Self-directed teams
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-directed teams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#products-not-projects" class="md-nav__link">
+    Products, not projects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-stories-not-tasks" class="md-nav__link">
+    User Stories, not tasks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-have-every-function-they-need-on-their-squad" class="md-nav__link">
+    Speedboats have every function they need on their squad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-hold-themselves-accountable-to-results" class="md-nav__link">
+    Speedboats hold themselves accountable to results
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-set-and-communicate-their-objectives" class="md-nav__link">
+    Speedboats set and communicate their objectives
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-coordination-mechanisms" class="md-nav__link">
+    Self-coordination Mechanisms
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-coordination Mechanisms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#personal-check-ins-everyone" class="md-nav__link">
+    Personal check-ins (Everyone)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-all-crews" class="md-nav__link">
+    Speedboats (All Crews)
+  </a>
+  
+    <nav class="md-nav" aria-label="Speedboats (All Crews)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#weekly-standup-20-minutes" class="md-nav__link">
+    Weekly Standup (20 minutes)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategic-coordination-captains-and-admirals" class="md-nav__link">
+    Strategic Coordination (Captains and Admirals)
+  </a>
+  
+    <nav class="md-nav" aria-label="Strategic Coordination (Captains and Admirals)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#squad-setup" class="md-nav__link">
+    Squad setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#squad-check-in" class="md-nav__link">
+    Squad check-in
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armada-meeting" class="md-nav__link">
+    Armada meeting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-vs-application-level" class="md-nav__link">
+    General vs Application-level
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication
+  </a>
+  
+    <nav class="md-nav" aria-label="Communication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-forums-over-chat" class="md-nav__link">
+    Why forums over chat?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoiding-the-wait-until-we-speak-trap" class="md-nav__link">
+    Avoiding the "wait until we speak" trap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-from-each-other-at-source-camps" class="md-nav__link">
+    Learning from each other at Source Camps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Peer learning formats
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Peer learning formats" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Peer learning formats
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peer-learning-formats/" class="md-nav__link">
+        Choosing the right format
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peer-learning-formats/clinic/" class="md-nav__link">
+        Clinic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peer-learning-formats/flocks/" class="md-nav__link">
+        Flocks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peer-learning-formats/show-how/" class="md-nav__link">
+        Show-How
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#source-os" class="md-nav__link">
+    Source OS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-speedboat-armada-model" class="md-nav__link">
+    The Speedboat Armada Model
+  </a>
+  
+    <nav class="md-nav" aria-label="The Speedboat Armada Model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roles" class="md-nav__link">
+    Roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategic-coordination" class="md-nav__link">
+    Strategic Coordination
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-directed-teams" class="md-nav__link">
+    Self-directed teams
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-directed teams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#products-not-projects" class="md-nav__link">
+    Products, not projects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-stories-not-tasks" class="md-nav__link">
+    User Stories, not tasks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-have-every-function-they-need-on-their-squad" class="md-nav__link">
+    Speedboats have every function they need on their squad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-hold-themselves-accountable-to-results" class="md-nav__link">
+    Speedboats hold themselves accountable to results
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-set-and-communicate-their-objectives" class="md-nav__link">
+    Speedboats set and communicate their objectives
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-coordination-mechanisms" class="md-nav__link">
+    Self-coordination Mechanisms
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-coordination Mechanisms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#personal-check-ins-everyone" class="md-nav__link">
+    Personal check-ins (Everyone)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speedboats-all-crews" class="md-nav__link">
+    Speedboats (All Crews)
+  </a>
+  
+    <nav class="md-nav" aria-label="Speedboats (All Crews)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#weekly-standup-20-minutes" class="md-nav__link">
+    Weekly Standup (20 minutes)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategic-coordination-captains-and-admirals" class="md-nav__link">
+    Strategic Coordination (Captains and Admirals)
+  </a>
+  
+    <nav class="md-nav" aria-label="Strategic Coordination (Captains and Admirals)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#squad-setup" class="md-nav__link">
+    Squad setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#squad-check-in" class="md-nav__link">
+    Squad check-in
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armada-meeting" class="md-nav__link">
+    Armada meeting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-vs-application-level" class="md-nav__link">
+    General vs Application-level
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication
+  </a>
+  
+    <nav class="md-nav" aria-label="Communication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-forums-over-chat" class="md-nav__link">
+    Why forums over chat?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoiding-the-wait-until-we-speak-trap" class="md-nav__link">
+    Avoiding the "wait until we speak" trap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-from-each-other-at-source-camps" class="md-nav__link">
+    Learning from each other at Source Camps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="decentralised-agile">Decentralised Agile</h1>
+<p>Source Institute collaborations usually run using a form of <a href="https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques">Agile</a> and Lean methodologies, and a calm, <a href="../squad">async-first communication culture</a> similar to <a href="https://basecamp.com/guides/how-we-communicate">Basecamp's</a>. </p>
+<p>There are significant differences though:</p>
+<ul>
+<li>The org structure is very decentralised, enabling us to act as a swarm or independently as needed.</li>
+<li>Our squads are far more independent, choosing their own goals and tools.</li>
+<li>Our strategy is more emergent, and more informed by the front-line.  Squad captains contribute to strategy.</li>
+</ul>
+<p>We call our approach the Speedboat Armada. Each squad is like a speedboat, with waterskiiers in tow. Each is self-directed, but coordinates with the others.</p>
+<h2 id="source-os">Source OS</h2>
+<p>The Source Operation System is our way of working, defined as a few simple practices.</p>
+<p>The idea with an "Operating System" with versions is to give everyone a clear sense of how things work, and we can step change with less confusion, rather than slowly shifting and trying to catch people up. Like an OS for your computer let's you focus on your work without needing to worry about how the computer works, Source OS is designed to allow you to focus on your work with almost no effort put towards management and coordination. (Coordination becomes a by-product of doing the real work.)</p>
+<p>The priority is to achieve connection and growth with our communities through the various products we have. Each product has a constituent user group: Leancamp, Deep Dive, Mentor Impact, Partnership Design, Decision Hacks, Source Summit, Brain Trust etc. The priority is to get Captains to (wo)man the boats, and to take initiatives in new squards to explore new ways to enable peer learning communities.</p>
+<div class="admonition success">
+<p class="admonition-title">Source OS is designed for</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Initiative</label><label for="__tabbed_1_2">Wayfinding</label><label for="__tabbed_1_3">Surplus time</label><label for="__tabbed_1_4">Personal development</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Source OS is designed to allow us to take initiatives of our own.  If you have an idea, get it going yourself or start a speedboat.  You're the captain of your own ship within the Source armada, and we coordinate at the Armada meeting every 2 months.</p>
+<p>So basically, we're aiming for more, smaller, self-directed teams that align themselves quarterly.</p>
+</div>
+<div class="tabbed-block">
+<p>The intention here is to step away from the problems caused by the lack of structure we've had previously, where we would wait for an initiative to get started by someone else, and then everyone would jump on it at once.  This created a lot of needless complication, confusion and extra work for the initiators, and overloaded projects too early, just as they were getting momentum.  Ultimately, creating organisational weakness at sales, communication and in delivering projects.</p>
+<p>So with Source OS, taking unilateral initiative on a project you lead is encouraged, and where you're not the squad leader or on the core team (on the speedboat), then you're expected to make yourself available to be delegated to.</p>
+</div>
+<div class="tabbed-block">
+<p>Urgency/busyness seems to be a constant everywhere. Although busyness hurts the business, it’s fiercely contagious since the infected (aka busy people) are visibly suffering and thus seem to have the moral high-ground. Without active opposite pressure, their long hours and off-handed comments (“well, back to the old grindstone”, “you guys go on home, I’m going to get a little more done”) will eventually swing the team. </p>
+<p>The biggest problem with this is that the people who can't manage their time well are always making themselves and others busy with busywork (meetings, impractical documentation, etc.) and fundamentally not getting results.  As the team gravitates into their meeting blackhole, nobody gets results.</p>
+<p>Creating surplus time individually creates a new gravity well towards calm work that gets better results.  Why?  When you have surplus time, you make yourself available to act on the best opportunities, and act with the calmness and sure-footedness of someonw fresh and well-rested. With a busy schedule, there's no room to maneuvre and no gas left in the tank when you need it.</p>
+<p>So Source OS is designed to free everyone from meetings and busywork so we can all focus on real work, and be ready when needed to get the big results.</p>
+</div>
+<div class="tabbed-block">
+<p>Self-improvement and peer-support go hand in hand. This started on Day 1 on the beach in Gradina, and it's part of Source culture I really want to defend and grow.</p>
+<p>There is a skill-set part of personal development, relating to what we consider to be quality entrepreneurship education, and the role of the facilitator/curator there.</p>
+<p>There is also a creation part of personal development. Source is a resource you can employ to create great new things. What will you use Source for to make, and deliver on what the world needs?</p>
+</div>
+</div>
+</div>
+</div>
+<h2 id="the-speedboat-armada-model">The Speedboat Armada Model</h2>
+<p><img alt="speedboat armada" src="../speedboat-armada.png" /></p>
+<p>We are not a hierarchical company, we are an armada of speedboats, Mad Max style! </p>
+<p>Imagine an armada of speedboats, with waterskiiers in tow.</p>
+<p>Each project has <strong>leadership</strong>, sitting on the speedboat. They take responsibility for leading, organising, and they make the decisions. They drive the boat, and also do all the main work. These on-boat teams should stay small like startup founding teams so they can remain quick.</p>
+<p>If you're not in the leadership (on the boat), you can be a waterskiier (on a rope). This  means you're willing to help, and to be pulled in. You follow the project's updates, and are responsive on internal communications.  This could be part of the delivery, or it can be an offer to advise, take calls, etc.</p>
+<p>The idea is that we can use On Boat (core to delivery, making decisions) and On Rope (watching, ready and able to be delegated specific responsibilities) as shortcuts to set expectations on commitment and communication.  You'll hear things like "I'm on rope on Erasmus+" meaning they're following that project and have made their availabilit to happy clear.  </p>
+<p>With smaller core teams, we'll be more efficient and quicker to jump on opportunities.  Also, we get better at building momentum since our energy goes into growth and impact, rather than management and coordination. </p>
+<p>Projects should start with just leadership, and people can rope on.  The leaders can "pull people in", as they're needed.</p>
+<p>The trade off is that unless you start a squad (or commit to it very early), you're going to be more of a "band-wagon jumper" so you might have to wait longer for the momentum to build up, before the project's engine is strong enough to tow you.  (Consider LIF in London and The Africa Prize in Ghana, with too many waterskiiers to coordinate. This is why we want to organise ourselves for smaller teams.)  </p>
+<p>One of the big ideas with this shift is to create an incentive for everyone to take the lead on something new, and build a small agile team to do it, building lots of powerful engines to pull us.  That's way more effective than pooling a lot of resources into a single team with a lot of different objectives to manage.  </p>
+<p>With the Speedboat Armada Model, we create space to see more leadership emerge within Source without bumping into existing initiatives.  If you see a way to enable peer learning at Source or with Source's help, go for it.  You'll gain our support, and will even probably attract a small squad around you.  You just need to agree on OKRs with the other squad captains and the admiral and you're all set.  </p>
+<h3 id="roles">Roles</h3>
+<p><img alt="armada roles" src="../armada-roles-communication.png" />
+Source basically revolves around speedboat "Crews" that work as small self-directed teams.  Crews have a Captain and a First Mate.  Crews are supported by Waterskiiers who follow along and help when pulled in.</p>
+<p>Outside of Crews, Admirals work to help Captains coordinate within the armada.</p>
+<h3 id="strategic-coordination">Strategic Coordination</h3>
+<p><strong>Admirals</strong> coordinate the speedboats at a high level. They have influence over the speedboats objectives, but not their operations. They mainly act as information providers to help the Captains decide on objectives.  They understand the goals and direction of the speedboats, help them avoid overlapping (on goals) and colliding (competing for resources) by bridging communications between Captains where needed.  They also look ahead to where these groups of boats are heading in the medium and long-term, doing recon, research, making useful connections, and generally making sure the coast is clear.</p>
+<h3 id="self-directed-teams">Self-directed teams</h3>
+<p><strong>Captain</strong> - Each speaedboat is lead by a captain which is responsible for setting and achieving the squad's results. Captains are self-appointed on squads they create.   They are responsible for the opportunity, results, design and delivery. <em>In Agile, the Product Owner.</em></p>
+<p><strong>First Mate</strong> - responsible for the organisation of the team and finances of the project. <em>In Agile, the Delivery Manager or Scrum Master.</em></p>
+<p><strong>Crew</strong> - part of the delivery team of a project. They are skill-complete, including whoever is necessary to do their work. The makeup differs by squad - could be a facilitator, coder, marketer...  Crews make the decisions together and do the work, and importantly they <strong>take responsibility for achieving the OKR.</strong> </p>
+<p>In Agile terms, Crew is a synonym for squad.  They are the core 2-4 people delivering the product.</p>
+<p><strong>Water-skiiers</strong> - help the crew by making themselves available and contributing when asked.  They are responsible for keeping up with the progress of the crew, but only accept specific responsibilities when someone in the crew delegates to them.  For example, they are not on the weekly meetings, but still expected to follow along the async crew communication and be responsive when they are tagged in a forum message.</p>
+<div class="admonition tip">
+<p class="admonition-title">These map to Agile roles</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Product Owner</label><label for="__tabbed_2_2">Scrum Master</label><label for="__tabbed_2_3">Squad</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>The product leader takes on the role of <em>product owner</em> which means it's their responsibility to understand the customers, users, stakeholders and the strategic needs of Source. Their job is to set priorities with the team, and be available as a check-in or proxy for the rest of the team when there's a question about what's right for the user.</p>
+</div>
+<div class="tabbed-block">
+<p>The <a href="https://www.gov.uk/service-manual/the-team/delivery-manager">delivery manager</a> sets the team up for successful delivery. Remove obstacles, or blockers to progress, constantly helping the team become more self organising. They enable the work a team does rather than impose how it’s done. Their role in this is to facilitate project meetings- including <a href="https://www.gov.uk/service-manual/agile/features-of-agile.html">stand-ups</a>, <a href="https://www.gov.uk/service-manual/agile/features-of-agile.html">sprint planning meetings</a>, and <a href="https://www.gov.uk/service-manual/agile/running-retrospectives.html">retrospectives</a>. They also track progress and produce artefacts for showing this, like burn down/up charts. They must be able to enable the team to produce estimates of how much effort is required to produce features that the <a href="https://www.gov.uk/service-manual/the-team/service-manager.html">Product Manager</a> wants.</p>
+</div>
+<div class="tabbed-block">
+<p>The team self-organises to delver (ship) working products at the end of every sprint.  They work with the priorities set with the Product Owner and Delivery Manager, but have control over <em>how</em> those objectives are delivered.</p>
+</div>
+</div>
+</div>
+<p>For more information on this, see the <a href="https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques">GDS guide to Agile</a>.</p>
+</div>
+<h4 id="products-not-projects">Products, not projects</h4>
+<p>Speedboats deliver user-focused products.  They are not defined by general work (projects) but outputs that deliver specific value to specific groups of people (products).  Speedboats are agile Squads, multi-disciplinary teams that deliver value to the user at the end of every one or two-week sprint.</p>
+<p>Projects have goals that serve the host organisation.  Products have goals that serve the user.  When you organise into product teams, you break work down, not by function, but by value to the end-user.  </p>
+<h4 id="user-stories-not-tasks">User Stories, not tasks</h4>
+<p>A specific Agile technique called User Stories is the unit of progress.  Shipping something that achieves the user stories allows the squad to self-organise and do what needs doing to deliver value, rather than require a manager to chase tasks.</p>
+<p>https://www.youtube.com/watch?v=LGeDZmrWwsw</p>
+<h4 id="speedboats-have-every-function-they-need-on-their-squad">Speedboats have every function they need on their squad</h4>
+<p>When you break up your teams by function, then you create interdependency.  This slows us down because each squad is going to end up waiting on others. This leads to more need for planning and management overhead, and less time for doing.  It also leads to feeling like you <em>shouldn't do what makes sense for you</em> because it might mess with another project.  </p>
+<p>Product teams have everyone they need in the squad and can act.  The squad doesn't need to check in with anyone but themselves for operational issues.  (Only the Captain needs to update OKRs every 2 months and confidence levels every month.).  There's less time needed for meetings and talking, and more of a culture of "let's just try this and let the results speak for themselves."</p>
+<h4 id="speedboats-hold-themselves-accountable-to-results">Speedboats hold themselves accountable to results</h4>
+<p>The Product Owner sets success metrics and the team then implements a way to track them.  Each sprint, the team reviews their work against performance, and learns and adapts accordingly.  As a self-directing team, the squad members don't wait for management to check the metrics and suggest course-corrections, but check the metrics, make suggestions and act on them themselves.</p>
+<h4 id="speedboats-set-and-communicate-their-objectives">Speedboats set and communicate their objectives</h4>
+<p>To be a Source Institute captain, you must have contributed to a Source community project already.  The Source Institute captains set OKRs which are agreed by the admiral and fellow captains.</p>
+<h2 id="self-coordination-mechanisms">Self-coordination Mechanisms</h2>
+<h3 id="personal-check-ins-everyone">Personal check-ins (Everyone)</h3>
+<p><strong>Check-ins</strong> is where we give quick, high-level updates on what we're doing.  It's also where we ask for updates on anything we're not actively involved with, but are considering collaborating with.</p>
+<p>Check-ins are written on the forum in the Check-Ins category, and usually written as a short bullet point list of priorities for the coming month or so.</p>
+<h3 id="speedboats-all-crews">Speedboats (All Crews)</h3>
+<h4 id="weekly-standup-20-minutes">Weekly Standup (20 minutes)</h4>
+<p>If you're on a squad or on a short rope, then you need to be on the Standup for that project -- they're usually weekly.  That's where we make sure everyone's in sync.</p>
+<div class="admonition info">
+<p class="admonition-title">Weekly Standup Agenda</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">1. Walk The Board</label><label for="__tabbed_3_2"><strong>2. Retrospectives</strong></label><label for="__tabbed_3_3"><strong>3.Sprint Planning</strong></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li><em>Walk the board</em> - we look through the current Kanban board for the proejct, covering each User Story that is still in "Doing" and comment on any progress or blocks if need-be.</li>
+<li><em>Surface blocks</em> - if there are any other blocks that haven't been called out yet, we raise them</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>The point of a weekly retro is to fix any minor problems in the team and to make sure you keep doing the things that are working. </p>
+<p>Usually this isn't needed, but this is a time that anyone can flag an issue for the team to run a root cause analysis.  The goal is to target process problems so we can address them as a team.</p>
+<p>Anyone can also flag a process improvement for analysis too.</p>
+<p>Retrospectives produce a short Lessons Learned bullet points, which are for the team's reference, and for future team members or other Source teams to learn from our experience.</p>
+</div>
+<div class="tabbed-block">
+<p>This is where we take things off the backlog, add them to the "To Do" column for this week's sprint.</p>
+<p>The Product Owner will lead this, moving cards over to To Do, and the team will estimate the difficulty of that using a technique called Planning Poker, where everyone shows their difficulty estimate of the user story on a card.  If there is a divergence, we talk about it and resolve it.</p>
+<p>With an understanding of difficulty, the Product Owner can set priorities for the coming sprint.</p>
+</div>
+</div>
+</div>
+<p>If you want to dig into this a bit more, check out the <a href="https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques">GDS intro to Agile</a>.   </p>
+</div>
+<h3 id="strategic-coordination-captains-and-admirals">Strategic Coordination (Captains and Admirals)</h3>
+<h4 id="squad-setup">Squad setup</h4>
+<p>A squad starts with the Captain writing a one-page overview, containing:</p>
+<ul>
+<li>Objectives and first OKRs</li>
+<li>Definition of the user group they're addressing</li>
+<li>What they'll have that user group do, with a product concept</li>
+<li>Who's on their team</li>
+</ul>
+<p>This gets shared on the forum and the admirals and other captains are tagged.</p>
+<h4 id="squad-check-in">Squad check-in</h4>
+<p>Every three to four weeks, the Captain shares a new update on the forum with few bullet points for:</p>
+<ul>
+<li>Update confidence levels for each OKR</li>
+<li>Current Priorities</li>
+<li>Pull/Help needed</li>
+<li>Metrics</li>
+<li>Recent Wins</li>
+<li>Recent Lessons Learned</li>
+</ul>
+<p>This is done as frequently as this key information changes, but never more than a month between check=ins.</p>
+<p>Check-ins are used by:</p>
+<ul>
+<li>Collaborators - to know where they can help</li>
+<li>Captains - to ensure their direction is coordinated and supported by the armada</li>
+<li>Admirals - to understand progress and direction, and respond helpfully</li>
+</ul>
+<h4 id="armada-meeting">Armada meeting</h4>
+<p>It's good to have speed boats, and agility, but it's also important to coordinate on course, and make sure that ropes don't get tangled.</p>
+<p>If you have an idea for a project, just start it, set your OKRs and talk to the other captains.  You have until the next Armada meeting to get agreement on your OKRs.</p>
+<p>Each squad has a Captain who takes responsibility for that squad achieving goals that fit the Institute's goals.  All Captains meet quarterly to check in on their progress. </p>
+<p>The Armada meeting is the first Friday of the month, every 3 months: March, June, September, December.</p>
+<p>We discuss which projects we have on-going, or what new speed boats are about to put into the water. </p>
+<p>All proposals for existing or new speedboats are shared in advance of the meeting, written as OKRs. The meeting itself is organised for question, relevant discussions, using Accordance Dialogues..</p>
+<p>A pro-forma agenda for the Captains meeting would be:</p>
+<ol>
+<li>A round where progress on targets is shared, and new targets for the next quarter are set for each squad.</li>
+<li>New projects, or directions are proposed by captains. These are then screened against larger goals for Source Institute, and their potential for community cross-overs (this is to prevent fragmentation of our efforts over separate communities)</li>
+</ol>
+<p>The main purpose of the armada meeting is to ensure the armada is moving in the same direction.  We do this by scrutinising each squads targets, and holding ourselves accountable.</p>
+<h4 id="general-vs-application-level">General vs Application-level</h4>
+<p>An emerging but key distinguishing factor in our initiatives have been what is <em>general</em> versus what is <em>applied</em> peer learning.</p>
+<p>For example, Leancamp is an application of a general technique, unconferences.  We can work on growing and organising Leancamp and its related communities, or we can work on developing unconferences themselves, and look for other applications beyond Lean or startup communities.</p>
+<p>Another example, The Sources is an application of on-demand storytelling.  We can apply on-demand storytelling for educating <a href="http://www.smithsonianmag.com/science-nature/geoducks-happy-as-clams-52966346/?no-ist">geoduck divers</a> or <a href="http://smallwarsjournal.com/documents/guevara.pdf">freedom fighters</a>. But first, we have to develop the general technique with The Sources.</p>
+<p>Ideally, we develop both in parallel as both together will drive Source towards its impact goals, but generally we find that the most useful research and R&amp;D starts with a real need.  Those usually look like a simple novel solution, which we later develop into something more broadly useful at Source Camps.</p>
+<p>Our goal here is to drive more rounded and meaningful research and development by placing Source in <a href="https://en.wikipedia.org/wiki/Pasteur%27s_quadrant">Pasteur's Quadrant</a> - where both basic and applied research in peer learning are relevant.</p>
+<h2 id="communication">Communication</h2>
+<p>Protecting our way of working, and respecting each others' time both come down to the every day choices we make about communication channels.</p>
+<p>In a nutshell, Source uses asynchronous communication for group discussions, voice chat for 1:1 conversations (only when needed) and text chat is optional and for random/social stuff only.</p>
+<p>The forum is for <em>all</em> discussions :</p>
+<ul>
+<li>that require more than 30 seconds to respond</li>
+<li>that are important enough to need to be referred to in the future</li>
+<li>where responses are important</li>
+</ul>
+<p>The community is divided into different categories so you can follow along or ignore and catch up later:</p>
+<ul>
+<li>The Check-In category is for high-level updates</li>
+<li>Each speedboat team has it's own category for their own discussions</li>
+<li>There are open categories for general and public discussions</li>
+</ul>
+<p>Chat on Telegram is for:</p>
+<ul>
+<li>mainly random, social stuff</li>
+<li>quick answers that don't require time to respond</li>
+</ul>
+<p>(Nobody is required to be on chat, only on the forum.)</p>
+<p>Squads will use their own tracking tools, which sometimes remove the need for the forum for their internal comms (but Check-Ins are still required).  It tends to be Pivotal Tracker, Trello or Basecamp, depending on their methodology.</p>
+<h3 id="why-forums-over-chat">Why forums over chat?</h3>
+<p>On chat, discussions are pretty much over when they scroll off the page.  Without that context, restarting a discussion that took place a few days ago is difficult, let alone a few months ago. Chat content basically dissolves. Plus the busier chat gets, the more  people feel pressure to live in chat, so everyone ends up hating it.  </p>
+<p>On forums, it is easy to continue discussions over any period of time.  New members can even pick up on a conversation and figure out what's going on.  Indicators show when there are large gaps in time between posts to help make it clear when this takes place. Discussions can evolve over a longer period of time, and build up towards common understanding.</p>
+<p>The idea with a discussion forum is that we start to think through and clarify our ideas in writing, which is important in a remote organisation.  If we're all the in the same room, it's easy to throw out and idea, see how it goes, and interact and adjust. With Remote, we need to take extra care in communicating this way, but we get way more time back in terms of uninterrupted time to really get work done.  Net net the time it takes to write on forums pays back in multiples.</p>
+<h3 id="avoiding-the-wait-until-we-speak-trap">Avoiding the "wait until we speak" trap</h3>
+<p>Another big benefit to async-first is that the important group decisions happen faster.  It seems counter-intuitive at first but consider this:  We're prone to delaying conversations until we're together or on the phone, which slows us down. Since forums are asynchronous, there's no need to wait. Just post. Given we all have different schedules, this is faster than waiting for a scheduled call.  Everyone can respond and move things forward without the waiting.</p>
+<h3 id="learning-from-each-other-at-source-camps">Learning from each other at Source Camps</h3>
+<p>Source Camp is a private unconference that runs every 2-3 months.  This is your chance to learn whatever needs to be learned to advance yourself along the belt system.  Each Source Camp will be focused on a specific track.</p>
+<p>Everyone who's made a significant personal contribution to any Source project is welcome to the <strong>Community</strong> track Source Camp. This includes Leancamp, Immersion, etc.</p>
+<p>The main vessel for self-improvement is Source Camp.  These are open-ended events where you <em>pull</em> learning from the Source organisation, rather than have it pushed, like in school.</p>
+<p>The standard Source Camp "agenda" would be learning and creating together. What stories do we have to share about peer learning? What tools and methods have we tried out or developed, and how do the work? </p>
+<p>Source Camp is also an opportunity to build in some reflection on the interaction between Source as an organisation, and personal development. A check-in to share your experiences on personal development, and how Source is enabling/limiting it. </p>
+<p>Source Camp also be an excellent opportunity to invite externals to, for instance our corporate change makers. They can then take part, or become one of the "agenda points".</p>
+<p>In all, Source Camp is intended to get you started or progressing on the tracks that have your priority and focus.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../remote/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Remote Squads" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Remote Squads
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../peer-learning-formats/" class="md-footer__link md-footer__link--next" aria-label="Next: Choosing the right format" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Choosing the right format
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.361d90f1.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.289a2a4b.min.js"></script>
+      
+    
+  </body>
+</html>
