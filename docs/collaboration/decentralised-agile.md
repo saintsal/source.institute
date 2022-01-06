@@ -65,54 +65,67 @@ We are not a hierarchical company, we are an armada of speedboats, Mad Max style
 
 Imagine an armada of speedboats, with waterskiiers in tow.
 
-Each project has **leadership**, sitting on the speedboat. They take responsibility for leading, organising, and they make the decisions. They drive the boat, and also do all the main work. These on-boat teams should stay small like startup founding teams so they can remain quick.
+Each project has **decentralised leadership**, the crew themeselves, driving the speedboat. They take responsibility for leading, organising, and they make the decisions. They drive the boat, and also do all the main work. These on-boat teams stay small like startup founding teams so they can remain quick.
 
-If you're not in the leadership (on the boat), you can be a waterskiier (on a rope). This  means you're willing to help, and to be pulled in. You follow the project's updates, and are responsive on internal communications.  This could be part of the delivery, or it can be an offer to advise, take calls, etc.
+If you're not in the crew (on the boat), you can be a waterskiier (on a rope). This  means you're willing to help, and to be pulled in. You follow the project's updates, and are responsive on internal communications.  This could be part of the delivery, or it can be an offer to advise, take calls, etc.
 
-The idea is that we can use On Boat (core to delivery, making decisions) and On Rope (watching, ready and able to be delegated specific responsibilities) as shortcuts to set expectations on commitment and communication.  You'll hear things like "I'm on rope on Erasmus+" meaning they're following that project and have made their availabilit to happy clear.  
+!!! tip "Terminology"
 
-With smaller core teams, we'll be more efficient and quicker to jump on opportunities.  Also, we get better at building momentum since our energy goes into growth and impact, rather than management and coordination. 
-
-Projects should start with just leadership, and people can rope on.  The leaders can "pull people in", as they're needed.
-
-The trade off is that unless you start a squad (or commit to it very early), you're going to be more of a "band-wagon jumper" so you might have to wait longer for the momentum to build up, before the project's engine is strong enough to tow you.  (Consider LIF in London and The Africa Prize in Ghana, with too many waterskiiers to coordinate. This is why we want to organise ourselves for smaller teams.)  
-
-One of the big ideas with this shift is to create an incentive for everyone to take the lead on something new, and build a small agile team to do it, building lots of powerful engines to pull us.  That's way more effective than pooling a lot of resources into a single team with a lot of different objectives to manage.  
-
-With the Speedboat Armada Model, we create space to see more leadership emerge within Source without bumping into existing initiatives.  If you see a way to enable peer learning at Source or with Source's help, go for it.  You'll gain our support, and will even probably attract a small squad around you.  You just need to agree on OKRs with the other squad captains and the admiral and you're all set.  
-
-#### Products, not projects
-
-Speedboats deliver user-focused products.  They are not defined by general work (projects) but outputs that deliver specific value to specific groups of people (products).  Speedboats are agile Squads, multi-disciplinary teams that deliver value to the user at the end of every one or two-week sprint.
-
-Projects have goals that serve the host organisation.  Products have goals that serve the user.  When you organise into product teams, you break work down, not by function, but by value to the end-user.  
+    We use "On Boat" (core to delivery, making decisions) and "On Rope" (watching, ready and able to be delegated specific responsibilities) as shortcuts to set expectations on commitment and communication.  You'll hear things like "I'm on rope on Erasmus+" meaning they're following that project and have made their availabilit to happy clear.  
 
 
-#### User Stories, not tasks
+#### Small, self-organising teams
 
-A specific Agile technique called User Stories is the unit of progress.  Shipping something that achieves the user stories allows the squad to self-organise and do what needs doing to deliver value, rather than require a manager to chase tasks.
+With smaller core teams, we're more efficient and quicker to jump on opportunities.  Also, we get better at building momentum since our energy goes into growth and impact, rather than management and coordination. 
 
-https://www.youtube.com/watch?v=LGeDZmrWwsw
+This also creates incentive for everyone to take the lead on to try something new, and build a small agile team to do it, building lots of powerful engines to pull us.  That's way more effective than pooling a lot of resources into a single team with a lot of different objectives to manage.  
+
+!!! warning "Speedboats are probably different than what you're used to"
+
+    === "Products, not projects"
+
+        Speedboats deliver user-focused products.  They are not defined by general work (projects) but outputs that deliver specific value to specific groups of people (products).  Speedboats are agile Squads, multi-disciplinary teams that deliver value to the user at the end of every one or two-week sprint.
+
+        Projects have goals that serve the host organisation.  Products have goals that serve the user.  When you organise into product teams, you break work down, not by function, but by value to the end-user.  
 
 
-#### Internally functional
+    === "User Stories, not tasks"
 
-Speedboats have every function they need on their squad.
-When you break up your teams by function, then you create interdependency.  This slows us down because each squad is going to end up waiting on others. This leads to more need for planning and management overhead, and less time for doing.  It also leads to feeling like you *shouldn't do what makes sense for you* because it might mess with another project.  
+        A specific Agile technique called User Stories is the unit of progress.  Shipping something that achieves the user stories allows the squad to self-organise and do what needs doing to deliver value, rather than require a manager to chase tasks.
 
-Product teams have everyone they need in the squad and can act.  The squad doesn't need to check in with anyone but themselves for operational issues.  (Only the Captain needs to update OKRs every 2 months and confidence levels every month.).  There's less time needed for meetings and talking, and more of a culture of "let's just try this and let the results speak for themselves."
+        https://www.youtube.com/watch?v=LGeDZmrWwsw
 
-#### Results-oriented
 
-Speedboats hold themselves accountable to results.
+    === "Internally functional"
 
-The Product Owner sets success metrics and the team then implements a way to track them.  Each sprint, the team reviews their work against performance, and learns and adapts accordingly.  As a self-directing team, the squad members don't wait for management to check the metrics and suggest course-corrections, but check the metrics, make suggestions and act on them themselves.
+        Speedboats have every function they need on their squad.
 
-#### Self-directing
+        When you break up your teams by function, then you create interdependency.  This slows us down because each squad is going to end up waiting on others. This leads to more need for planning and management overhead, and less time for doing.  It also leads to feeling like you *shouldn't do what makes sense for you* because it might mess with another project.  
 
-Speedboats set and communicate their objectives.
+        Product teams have everyone they need in the squad and can act.  The squad doesn't need to check in with anyone but themselves for operational issues.  (Only the Captain needs to update OKRs every 2 months and confidence levels every month.).  There's less time needed for meetings and talking, and more of a culture of "let's just try this and let the results speak for themselves."
 
-To be a Source Institute captain, you must have contributed to a Source community project already.  The Source Institute captains set OKRs which are agreed by the admiral and fellow captains.
+    === "Results-oriented"
+
+        Speedboats hold themselves accountable to results.
+
+        The Product Owner sets success metrics and the team then implements a way to track them.  Each sprint, the team reviews their work against performance, and learns and adapts accordingly.  As a self-directing team, the squad members don't wait for management to check the metrics and suggest course-corrections, but check the metrics, make suggestions and act on them themselves.
+
+    === "Self-directing"
+
+        Speedboats set and communicate their objectives.
+
+        To be a Source Institute captain, you must have contributed to a Source community project already.  The Source Institute captains set OKRs which are agreed by the admiral and fellow captains.
+
+### Leadership rises
+
+  Projects start with a single person, and people can rope on.  The leaders "pull people in", as they're needed.
+
+
+  With the Speedboat Armada, we create space to see more leadership emerge within Source without bumping into existing initiatives.  If you see a way to enable peer learning at Source or with Source's help, go for it.  You'll gain our support, and will even probably attract a small squad around you.  
+
+  You just need to agree on OKRs with the other squad captains and the admiral and you're all set.  
+
+  The trade off is that unless you start a squad (or commit to it very early), you're going to be more of a "band-wagon jumper" so you might have to wait longer for the momentum to build up, before the project's engine is strong enough to tow you.  (Consider LIF in London and The Africa Prize in Ghana, with too many waterskiiers to coordinate. This is why we want to organise ourselves for smaller teams.)  
 
 
 ## Roles
@@ -127,7 +140,7 @@ Outside of Crews, Admirals work to help Captains coordinate within the armada.
 **Admirals** coordinate the speedboats at a high level. They have influence over the speedboats objectives, but not their operations. They mainly act as information providers to help the Captains decide on objectives.  They understand the goals and direction of the speedboats, help them avoid overlapping (on goals) and colliding (competing for resources) by bridging communications between Captains where needed.  They also look ahead to where these groups of boats are heading in the medium and long-term, doing recon, research, making useful connections, and generally making sure the coast is clear.
 
 !!! note 
-     In the long run, we expect Admirals to be replaced by fully advisory roles, effectively waterskiiers responsible to Captains.
+     In the long run, we expect Admirals to shift into fully advisory roles, effectively waterskiiers with advisory responsibilities to Captains.
 
 ### Boats
 
