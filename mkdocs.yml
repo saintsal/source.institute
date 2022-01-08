@@ -24,5 +24,9 @@ theme:
     - search
     - social:
       cards_font: Oxygen
+extra:
+  analytics:
+      provider: custom
+      property: foobar
 extra_css:
   - css/source.css
