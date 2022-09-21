@@ -57,6 +57,10 @@ Teamwork is interconnected, so if someone's stuck or delayed, it affects others.
 
 If someone is completely stuck, call a "block" so all hands drop what they're doing and come to their support. Blocks are immediately followed by a 30-minute root cause session, so we can use the opportunity to improve for next time.
 
+### The Advice Method
+
+A simple rule to follow: if what you're doing affects someone else, get their advice first.  After collecting everyone's advice, you might not be able to, or even be inclined to follow it.  That's ok.  Just make sure if you don't, you communicate back to them why you didn't.  They then have a heads up and understand the context.
+
 ## Reject urgency
 It's disrupted when someone does something last-minute, and ends up pulling everyone into that last-minuteness. If this becomes a pattern, everyone gets caught up in the urgent instead of the important. But we can break these urgency habits, leaving us all in flow, working calmly while still seeing big results.
 
@@ -68,5 +72,4 @@ Calls are used sparingly, but sometimes a voice conversation is the right way to
 
 After the call, write a quick note on the forum so everyone's in the loop and clear.
 
-That's it. Simple, and its worked great. It just takes some commitment and some getting used to.
 
