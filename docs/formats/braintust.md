@@ -23,19 +23,13 @@ Braintrust is a way to help ourselves progress quickly with regular learning goa
     Especially in the first few meetings, it’s helpful to ‘police’ each other to create good habits.  Some Braintrust groups use self-made ‘yellow cards’ (just pieces of paper).  If someone else starts to give advice on the idea, rather than on the learning direction, or if they’re presenting and they start selling or pitching, just hold up the card so they can catch themselves and change what they’re saying.
 
 
-## Preparation
-
-1. Print out large (A2 or A1) Flocks posters.  Print roughly 10-20% of the number of people who will be in the room.
-2. Print out small (A4) Flocks posters.  Print roughly 20% of the number of people who will be in the room.
-3. Keep the posters with felt-tip pens at the front of the room on a few large tables so multiple people can write their poster. (The small posters are for practice.)
-
 
 
 ## Process
 | Time | | Action | Tips |
 | - | - | - | - |
 | 3 – 5 minutes | |Allow everyone to prepare their presentations and fill out the form. | It’s better to allow time for this, than to have people distracted while they’re giving others advice. |
-| 8 minutes, repeated for each person presenting | 3 minutes max. | The Challenger produces their deliverable.  (Could be an email, a dashboard, etc.) | Don’t allow anyone to interrupt the presenter.  Make sure they’re describing their learning goals and not their idea. If someone finishes before their 3 minutes, that time is given to them as additional feedback time.  Everyone has 8 minutes total. |
+| 8 minutes, repeated for each person presenting | 3 minutes max. | One person presents their past learning goal, what they learned, then what and how they planned to learn next.  | Don’t allow anyone to interrupt the presenter.  Make sure they’re describing their learning goals and not their idea. If someone finishes before their 3 minutes, that time is given to them as additional feedback time.  Everyone has 8 minutes total. |
 | | 5 minutes | Clarification questions and feedback. | Don't share your opinion on their idea -- focus on their learning direction instead. |
 
 
