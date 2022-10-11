@@ -13,7 +13,7 @@ Braintrust is a way to help ourselves progress quickly with regular learning goa
 
 !!! example inline end "Use this prep form"
     [![](./braintrust/braintrust-form.png)](braintrust/Braintrust Form.pdf)
-    [Download the PDF here](./braintrust/braintrust-form.png)
+    [Download the PDF here](braintrust/Braintrust Form.pdf)
 
 ## Appropriate levels of advice
 - Focus on helping them see their risks, choose their learning goals and be aware of their environment (like useful tools, resources or warnings.)
